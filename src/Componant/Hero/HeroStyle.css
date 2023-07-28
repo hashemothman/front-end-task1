@@ -1,0 +1,48 @@
+.hero-section{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+.hero-section div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+}
+.hero-section div h1{
+    padding: 20px 0;
+    font-size: 35px;
+    font-weight: 800;
+}
+@media (max-width:360px) {
+    .hero-section div{
+        width: 70%;
+    }
+    .hero-section div h1{
+        padding: 20px 0;
+        font-size: 21px;
+        font-weight: 800;
+    }
+}
+.hero-section div h2{
+    color: #1FABE4;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.hero-section div p{
+    color: #979ba1;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.hero-section div button{
+    color: white;
+    background-color: #07A6F0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}

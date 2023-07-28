@@ -1,0 +1,34 @@
+.ad-section{
+    background-color: #E5F6FE;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.ad-info{
+    margin: 10px;
+}
+.ad-section .ad-info p{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+.ad-section .ad-info h4{
+    color: #5EB5D5;
+    padding: 10px 0;
+    font-size: 24px;
+}
+@media (max-width:360px) {
+    .ad-section{
+    
+        flex-direction: column;}
+}
+.ad-section button{
+    border: none;
+    color: white;
+    background-color: #5EB5D5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
